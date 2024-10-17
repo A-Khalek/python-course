@@ -188,5 +188,30 @@ print(my_set)
 
 # set() কন্সট্রাক্টর ব্যবহার করে
 another_set = set([5, 6, 7])
-print(another_set)
+# print(another_set)
+
+# খালি সেট তৈরি করা
+
+# খালি সেট
+empty_set = set()
+# print(empty_set)  # এটি একটি খালি সেট হবে
+
+# my_set1 = {}
+#
+# my_set1.add(4)
+# print(my_set1)  # এটি একটি dictionary হবে
+
+
+# Set থেকে elements মুছে ফেলা
+
+my_set2 = {1, 2, 3}
+
+my_set2.remove(2)
+
+print(my_set2)
+
+# discard
+my_set2.discard(3)
+
+print(my_set)  # {1, 2}.
 
